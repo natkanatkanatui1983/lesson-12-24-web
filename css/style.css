@@ -1,0 +1,312 @@
+.header-wraper {
+     display: flex;
+     max-width: 1728px;
+     width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #191A19;
+    padding: 44px 49px;
+    margin:0 auto;
+    
+}
+
+
+.ul-nav {
+    display: flex;
+    
+    
+   
+}
+  
+.right-header-block{
+    width: 383px;
+    height: 66px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-us{
+    background-color: #FF7420;
+    width: 194px;
+    height: 66px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: white;
+    justify-content: center;
+
+}
+.English {
+    width: 194px;
+    height: 66px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: white;
+    justify-content: center;
+}
+.ul-element {
+    display: flex;
+    width: 505px;
+    justify-content: space-between;
+    
+}
+
+.a-element {
+    position: relative;
+}
+
+  .a-element::after {
+    content: " ";
+    height: 4%;
+    width: 0%;
+    background-color: #FF7420;
+    bottom: 0%;
+    left: 0%;
+    position: absolute;
+    transition: all 3s;
+    
+
+}
+   .a-element:hover::after{
+    width: 100%;
+}  
+.a-element :hover ::after {
+    width: 100%;
+}
+
+.conteiner {
+    max-width: 1118px;
+    width: 90%;
+    margin: 0 auto;
+}
+  
+
+
+.flex-wraper {
+    display: flex;
+    column-gap: 20px;
+    padding-top: 38px;
+   
+}
+
+.box {
+    max-width: 380PX;
+    width: 100%;
+    height: 380px;
+    border: 2px solid black;
+    
+    
+    
+
+
+
+}
+.image-box {
+    width: 100%;
+}
+.text-block {
+  margin: 18px 21px 20px;
+}
+
+
+
+.small-box {
+display: flex;
+column-gap: 11px;
+align-items: center;
+margin: 28px 21px;
+text-align: center;
+width: 100%;
+
+
+
+
+
+
+
+
+}
+    
+      
+
+
+
+.time-box {
+    width: 24px;
+    height: 24px;
+    border-radius: 100px; 
+   align-items: center;
+   
+   display: flex;
+   align-items: center;
+
+    
+    
+}
+ 
+
+.wraper-potography{
+    max-width: 1118px;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 52px;
+    
+    
+    
+    
+    
+}
+
+
+.big-div {
+ max-width: 1118px;
+
+ display: flex;
+ column-gap: 20px;
+
+ padding-top: 34px;
+}
+
+
+
+.picture-img-div {
+   
+    max-width: 779px;
+    
+    
+   
+}
+
+
+
+
+.picture-img1{
+    background-image: url('../images/Rectangle\ 12.jpg');
+    width: 100%;
+    width: 779px;
+    background-size: cover;
+    height: 400px;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 86px;
+}
+  
+
+.title-name {
+    
+   
+   size: 30px;
+   color: black;
+   
+   
+   text-transform: uppercase;
+}
+.picture-img2{
+    background-image: url('../images/Rectangle\ 13.jpg');
+    width: 100%;
+    width: 779px;
+    background-size: cover;
+    height: 400px;
+    position: relative;
+     display: flex;
+    align-items: flex-end;
+}
+.title-img {
+    
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    
+    
+}
+
+.text-img {
+    color: white;
+    margin: 277px 36px 36px;
+    position: absolute;
+}
+
+ .div-box {
+    max-width: 380px;
+    width: 100%;
+    
+
+ }
+.box-block {
+   max-width: 380px;
+    height: 280px;
+    border: 2px black solid;
+   
+}
+
+.img-block {
+    width: 100%;
+}
+.text-box {
+  margin: 18px 21px 20px;
+}
+.small-block {
+    
+    display: flex;
+ column-gap: 11px;
+ align-items: center;
+ margin: 28px 21px;
+ text-align: center;
+ max-width: 380px;
+ width: 100%;
+
+
+}
+
+
+
+
+@media (min-width:320px) {
+    .flex-wraper {
+        flex-direction: column;
+        row-gap: 18px;
+    }
+    .box:nth-child(3) {
+        display: none;
+    }
+    .title {
+        size: 24px;
+        text-transform: uppercase;
+    }
+    
+    .wraper-potography {
+        flex-direction: column;
+        row-gap: 36px;
+    }
+    .title-name {
+        size: 23px;
+    }
+   
+ 
+}
+
+
+@media (min-width:375px) {
+         .flex-wraper {
+            flex-direction: row;
+            row-gap: 18px;
+
+      }
+       .title {
+        size: 30px;
+       
+    }
+
+}
+
+@media (min-width:834px) {
+    .box:nth-child(3) {
+        display: block;
+        row-gap: 20px;
+    }
+    
+   
+}
+ 
